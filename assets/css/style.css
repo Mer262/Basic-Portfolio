@@ -33,7 +33,7 @@ Fonts
 
 #headlineSection {
 	float: left;
-	padding-left: 50px;
+	padding-left: 20px;
 	position: absolute;
 }
 
@@ -71,14 +71,14 @@ nav {
 	padding-top: 20px;
 
 }
-ul {
+.contactItems {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-li {
+.Items {
 	float: right;
     display: inline;
     text-align: center;
@@ -118,8 +118,8 @@ li:first-child {
 	padding-left: 160px
 	padding-top: 50px;
 	padding-bottom: 30px;
-	margin-left: 50px;
-	margin-right: 20px;
+	margin-left: 20px;
+	/*margin-right: 20px;*/
 	padding-right: 30px;
 	float: left;
 	border: 1px solid #dddddd;
@@ -144,6 +144,8 @@ li:first-child {
 	padding-bottom: 40px;
 	border: 1px solid #dddddd;
 	margin-top: 40px;
+	margin-left: 20px;
+	margin-bottom: 20px;
 	text-align: center;
 	background-color: #ffffff;
 }
@@ -155,28 +157,33 @@ h3 {
 	font-size: 18pt;
 	font-weight: bold;
 	padding-top: 30px;
-	padding-left: 30px;
-	padding-right: 30px;
-	padding-bottom: 20px;
+	padding-bottom: 25px;
+	/*border-bottom: 1px solid #dddddd;*/
 }
 
 .connectLinks {
 	float: right;
     display: inline;
     text-align: center;
-    padding: 5px 5px;
-    border: none;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    padding-right: 5px;
+    padding-left: 5px;
+    /*border: none;*/
+    border-top: 1px solid #dddddd;
 }
 
 #socialIcons {
     list-style-type: none;
-    margin: 0;
-    padding-top: 20px;
+    width: 90%;
+    /*margin: auto;*/
+    /*margin: 0;*/
+    /*padding-top: 20px;*/
     overflow: hidden;
-    padding-right: 10px;
-    padding-left: 30px;
-    border-top: 1px solid #dddddd;
-    float: left;
+  /*padding-right: 10px;
+    padding-left: 30px;*/
+    /*float: left;*/
+    /*border-top: 1px solid #dddddd;*/
 }
 
 .thumbnails {
